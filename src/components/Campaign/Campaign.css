@@ -1,0 +1,80 @@
+.campaign-wrapper {
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.campaign__category{
+  border-bottom: 1px solid gainsboro;
+  padding-bottom: 1rem;
+}
+.campaign-header {
+  margin-top: 2rem;
+  display: flex;
+  
+  padding: 0;
+  width: 1000px;
+  max-width: 100%;
+  min-width: 768px;
+  background-color: aqua;
+}
+
+.campaign__image {
+  max-width: 60%;
+  padding: 0 1rem;
+}
+
+.campaign__image img{
+  max-width: 100%;
+}
+
+.campaign__details {
+  max-width: 100%;
+  padding: 0 1rem;
+}
+
+.campaign__details p {
+  color: grey
+}
+
+.campaign__details .donatebutton{
+  display: flex;
+  justify-content: center;
+}
+.campaign__details .donatebutton button{
+  width: 40%;
+  align-items: center;
+  border: none;
+  background-color: rgb(210, 32, 48);
+  color: white;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 4px;
+}
+
+.campaign__details .donatebutton button:hover{
+  opacity: 0.9;
+  box-shadow: 2px 2px 8px grey, -2px 2px 8px grey;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.bundles-categories {
+  padding: 0;
+}
+
+@media (max-width:768px) {
+  .campaign-wrapper { 
+    flex-direction: column;
+    align-items: center;  
+    margin-left: 0;
+  }
+  .campaign__image { 
+    flex-basis: 100%;
+    max-width: 100%; 
+    padding: 0 1rem;
+  }
+  .campaign__image img{
+    max-width: 100%;
+  }
+}

@@ -1,0 +1,15 @@
+.campaign-tabs {
+  width: 100%;
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper {
+  text-align: center;
+  height: 100%;
+  padding: 0 1rem;
+  width: 1000px;
+  max-width: 100%;
+  min-width: 768px;
+}

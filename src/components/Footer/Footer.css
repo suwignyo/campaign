@@ -1,0 +1,30 @@
+.foot-links {
+  padding: 3rem 0 ;
+  display: flex;
+    justify-content: center;
+    background: gainsboro;
+    color: Red;
+    min-height: 15vh;
+}
+
+.foot-links h4 {
+  color: black;
+  font-weight: bold
+}
+
+.about{
+  display: flex;
+  justify-content: center;
+  background: whitesmoke;
+  min-height: 10vh;
+  padding: 3rem 0
+}
+
+.about-wrapper{
+  display: flex;
+    justify-content: center;
+}
+
+.about-wrapper img {
+  color: red
+}

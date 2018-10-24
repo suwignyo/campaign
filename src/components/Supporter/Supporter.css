@@ -1,0 +1,24 @@
+.supporter-tab .tab-content {
+  padding: 1rem 0;
+  border: 1px solid gainsboro;
+  margin: 1rem;
+}
+
+.supporter-tab .tab-content .supporter-content{
+  list-style: none;
+  padding: 1rem 0;
+  border-bottom: 1px solid gainsboro
+}
+
+.supporter-tab .tab-content .supporter-content .supporter-name {
+  font-weight: bold
+}
+
+.supporter-tab .tab-content .supporter-content .supporter-donation{
+
+}
+
+.supporter-tab .tab-content .supporter-content .supporter-date {
+  text-align: end;
+  font-size: 1rem;
+}

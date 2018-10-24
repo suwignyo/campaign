@@ -1,0 +1,30 @@
+.bundle{
+  width: 50%;
+  background-color: whitesmoke;
+  margin: 1rem;
+  border-radius: 2px
+}
+
+.bundle-image img {
+  width: 100%
+}
+
+
+.bundle:hover {
+  box-shadow: 2px 3px 6px grey, -2px 3px 6px grey;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.buy-share{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 1rem
+}
+
+.buy-share button{
+  border: none;
+  color: white;
+  background: #d22030;
+  border-radius: 2px;
+  padding: 0.5rem 2rem;
+}
